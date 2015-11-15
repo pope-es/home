@@ -5,13 +5,13 @@
 	<key>BackgroundColor</key>
 	<string>rgba(0.015924,0.126521,0.159696,1.000000)</string>
 	<key>InsertionPointLineHighlightColor</key>
-	<string>rgba(0.015924,0.126521,0.159696,1.000000)</string>
+	<string>rgba(0.039381,0.160116,0.198333,1.000000)</string>
 	<key>InvisibleOthersColor</key>
 	<string>rgba(0.819270,0.108407,0.141457,1.000000)</string>
 	<key>InvisibleSpacesColor</key>
 	<string>rgba(0.505992,0.564858,0.563637,1.000000)</string>
 	<key>PrimaryHighlightColor</key>
-	<string>rgba(0.039381,0.160116,0.198333,1.000000)</string>
+	<string>rgba(0.989434,0.957944,0.864060,1.000000)</string>
 	<key>SecondaryHighlightColor</key>
 	<string>rgba(0.039381,0.160116,0.198333,1.000000)</string>
 	<key>SpellingColor</key>
