@@ -10,10 +10,6 @@
 	<string>rgba(0.819270,0.108407,0.141457,1.000000)</string>
 	<key>InvisibleSpacesColor</key>
 	<string>rgba(0.505992,0.564858,0.563637,1.000000)</string>
-	<key>PrimaryHighlightColor</key>
-	<string>rgba(0.015924,0.126521,0.159696,1.000000)</string>
-	<key>SecondaryHighlightColor</key>
-	<string>rgba(0.916111,0.890012,0.797811,1.000000)</string>
 	<key>SpellingColor</key>
 	<string>rgba(0.777389,0.108025,0.435166,1.000000)</string>
 	<key>com.barebones.bblm.JavaScript.error</key>
