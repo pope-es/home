@@ -10,12 +10,21 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zshrc" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zshrc"
 fi
 
-# Customize to your needs...
-
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-alias nmap='nmap --open --webxml -v'
+alias nmap='xxnmap'
+alias testssl='xxtestssl'
+alias testssl.sh='xxtestssl'
+alias sslscan='xxsslscan'
+alias sslyze='xxsslyze'
+
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
-tmux list-sessions >/dev/null || tmux -CC
+# tmux list-sessions >/dev/null || tmux -CC
+
+bindkey -v
+bindkey '^R' history-incremental-search-backward
+bindkey '^A' beginning-of-line
+bindkey '^E' end-of-line
+
